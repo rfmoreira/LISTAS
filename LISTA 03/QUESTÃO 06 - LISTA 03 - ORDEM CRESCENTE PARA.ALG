@@ -1,4 +1,4 @@
-Algoritmo "QUESTÃO 06 - LISTA 03 - ORDEM CRESCENTE PARA"
+Algoritmo "QUESTÃƒO 06 - LISTA 03 - ORDEM CRESCENTE PARA"
 "Rafael Moreira Ferreira"
 Var
    conj, z:inteiro
@@ -10,16 +10,16 @@ Inicio
    z<-0
    enquanto (z <> conj)faca
 
-      Escreval ("Digite três numeros em ordem crescente")
+      Escreval ("Digite trÃªs numeros em ordem crescente")
       leia(x, y, s)
       se (x<y) e (y<s) entao
          Escreval("Resultado da Soma: " , x+y+s)
          med<- (x+y+s)/3
          Escreval ("Resultado da Media: ", med)
-         Escreval ("Resultado da Multiplicação: ", x*y*s)
+         Escreval ("Resultado da MultiplicaÃ§Ã£o: ", x*y*s)
          z<-z+1
       fimse
-     se(x>y) e (y>s)entao
+     se(x>y) ou (y>s)entao
      z<-conj
    fimse
 fimenquanto

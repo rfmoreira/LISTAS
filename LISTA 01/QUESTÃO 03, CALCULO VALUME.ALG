@@ -1,17 +1,17 @@
-Algoritmo "Quest„o 03, calculo valume"
+Algoritmo "Quest√£o 03, calculo valume"
 "Rafael Moreira Ferreira"
 
 Var
-raio, altura, volume:real
+  raio, altura, volume:real
 
 Inicio
-escreval("Qual o raio ")
-leia(raio)
-escreval ("Qual altura ")
-leia(altura)
+  escreval("Qual o raio ")
+    leia(raio)
+  escreval ("Qual altura ")
+    leia(altura)
 
 volume<-(pi * (raio^2) * altura)
 
-Escreval("O volume È: " , volume)
+  Escreval("O volume √©: " , volume)
 
 Fimalgoritmo

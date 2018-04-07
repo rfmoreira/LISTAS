@@ -1,13 +1,12 @@
-algoritmo "QEST√O 05"
+algoritmo "QEST√ÉO 05"
 "Rafael Moreira Ferreira"
 var
-n1, result:real
+  n1, result:real
 inicio
-escreval("Escreva o valor a ser elevado ")
-leia (n1)
+  escreval("Escreva o valor a ser elevado ")
+    leia (n1)
 result<- n1^2
 
-escreval ("O resultado È: ", result)
-
+  escreval ("O resultado √©: ", result)
 
 fimalgoritmo
